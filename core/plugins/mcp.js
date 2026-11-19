@@ -65,7 +65,7 @@ import { PICK_LAYER_NUDGE } from '../../app/map-control-tools.js';
 import { runQuery } from '../run-query.js';
 
 // The same glen-harness tag as the imports in core/main.js; a test checks.
-export const HARNESS_MCP_CLIENT = 'https://cdn.jsdelivr.net/gh/SchmidtDSE/glen-harness@v0.5.1/src/mcp-client.js';
+export const HARNESS_MCP_CLIENT = 'https://cdn.jsdelivr.net/gh/mfisher87/glen-harness@fix-user-message-display/src/mcp-client.js';
 const HARNESS_POST_MESSAGE = new URL('post-message-transport.js', HARNESS_MCP_CLIENT).href;
 
 /**
